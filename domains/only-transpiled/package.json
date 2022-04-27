@@ -1,7 +1,10 @@
 {
   "name": "@flexteam/only-transpiled",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "babel ./src --out-dir dist --extensions .ts,.tsx"
+    "build": "babel ./src --out-dir dist --extensions .ts,.tsx",
+    "type": "tsc --project tsconfig.json"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
