@@ -1,6 +1,6 @@
 {
   "name": "@flexteam/bundled",
-  "main": "dist/esm/index.js",
+  "main": "dist/cjs/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c rollup.config.js",
@@ -16,6 +16,7 @@
     "@babel/runtime": "^7.17.9",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.2.1",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.0",
@@ -29,6 +30,7 @@
   },
   "dependencies": {
     "axios": "^0.27.1",
+    "libphonenumber-js": "^1.9.52",
     "rxjs": "^7.5.5"
   }
 }
