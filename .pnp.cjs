@@ -2436,6 +2436,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@emoji-mart/data", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/@emoji-mart-data-npm-1.0.1-29ae9dcf02-700833b441.zip/node_modules/@emoji-mart/data/",\
+          "packageDependencies": [\
+            ["@emoji-mart/data", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@eslint/eslintrc", [\
         ["npm:1.2.2", {\
           "packageLocation": "./.yarn/cache/@eslint-eslintrc-npm-1.2.2-d379f4b8bd-d891036bbf.zip/node_modules/@eslint/eslintrc/",\
@@ -2545,9 +2554,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-react", "virtual:1a9bf3aaaee0c7c7aaafc19d3639ba2c69875bd0cc68a24c635747cb7cfb29538ddb62fbb18824c0480e6ed9feeca44b85ad9ec9c2a5b44ee125190de96f366b#npm:7.16.7"],\
             ["@babel/preset-typescript", "virtual:1a9bf3aaaee0c7c7aaafc19d3639ba2c69875bd0cc68a24c635747cb7cfb29538ddb62fbb18824c0480e6ed9feeca44b85ad9ec9c2a5b44ee125190de96f366b#npm:7.16.7"],\
             ["@babel/runtime", "npm:7.17.9"],\
+            ["@emoji-mart/data", "npm:1.0.1"],\
             ["@types/react", "npm:18.0.8"],\
             ["@types/react-dom", "npm:18.0.0"],\
             ["axios", "npm:0.27.1"],\
+            ["emoji-mart", "npm:5.0.0"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:acab409cc764f911d5e0cb07e69a99a165db9d54045c9beeb8cc6cc734fb79fd75c3736667125ae939d2255eb9abc48469b884594a30c3d2be6896dedc1cfe7f#npm:18.1.0"],\
             ["rxjs", "npm:7.5.5"],\
@@ -2572,9 +2583,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-react", "virtual:1a9bf3aaaee0c7c7aaafc19d3639ba2c69875bd0cc68a24c635747cb7cfb29538ddb62fbb18824c0480e6ed9feeca44b85ad9ec9c2a5b44ee125190de96f366b#npm:7.16.7"],\
             ["@babel/preset-typescript", "virtual:1a9bf3aaaee0c7c7aaafc19d3639ba2c69875bd0cc68a24c635747cb7cfb29538ddb62fbb18824c0480e6ed9feeca44b85ad9ec9c2a5b44ee125190de96f366b#npm:7.16.7"],\
             ["@babel/runtime", "npm:7.17.9"],\
+            ["@emoji-mart/data", "npm:1.0.1"],\
             ["@types/react", "npm:18.0.8"],\
             ["@types/react-dom", "npm:18.0.2"],\
             ["axios", "npm:0.27.1"],\
+            ["emoji-mart", "npm:5.0.0"],\
             ["rxjs", "npm:7.5.5"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
@@ -4046,6 +4059,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.123-3571dba5a8-da7800ead1.zip/node_modules/electron-to-chromium/",\
           "packageDependencies": [\
             ["electron-to-chromium", "npm:1.4.123"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["emoji-mart", [\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/emoji-mart-npm-5.0.0-8b169fed87-9d4988eae8.zip/node_modules/emoji-mart/",\
+          "packageDependencies": [\
+            ["emoji-mart", "npm:5.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\

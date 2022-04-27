@@ -6,6 +6,10 @@ const nextConfig = {
   experimental: {
     esmExternals: true,
   },
+  webpack: (config, { webpack }) => {
+    config.plugins.push(new webpack.ProgressPlugin({ profile: true }));
+    return config;
+  },
 };
 
 module.exports = withBundleAnalyzer({ enabled: true })(nextConfig);
