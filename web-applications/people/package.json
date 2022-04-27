@@ -1,5 +1,5 @@
 {
-  "name": "people",
+  "name": "@flex-apps/people",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@flexteam/only-transpiled": "workspace:^",
     "next": "12.1.5",
     "react": "18.1.0",
     "react-dom": "18.1.0"

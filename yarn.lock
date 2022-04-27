@@ -1415,7 +1415,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@flexteam/only-transpiled@workspace:domains/only-transpiled":
+"@flex-apps/people@workspace:web-applications/people":
+  version: 0.0.0-use.local
+  resolution: "@flex-apps/people@workspace:web-applications/people"
+  dependencies:
+    "@flexteam/only-transpiled": "workspace:^"
+    "@types/node": 17.0.29
+    "@types/react": 18.0.8
+    "@types/react-dom": 18.0.0
+    eslint: 8.14.0
+    eslint-config-next: 12.1.5
+    next: 12.1.5
+    react: 18.1.0
+    react-dom: 18.1.0
+    typescript: 4.6.3
+  languageName: unknown
+  linkType: soft
+
+"@flexteam/only-transpiled@workspace:^, @flexteam/only-transpiled@workspace:domains/only-transpiled":
   version: 0.0.0-use.local
   resolution: "@flexteam/only-transpiled@workspace:domains/only-transpiled"
   dependencies:
@@ -4136,22 +4153,6 @@ __metadata:
   checksum: 5b1e2daa247062061325b8fdbfd1fb56dde0a448fb1455453276ea18c60685bdad23a445dc148cf87bc216be1573357509b7d4060494a6fd768c7efad833ee45
   languageName: node
   linkType: hard
-
-"people@workspace:web-applications/people":
-  version: 0.0.0-use.local
-  resolution: "people@workspace:web-applications/people"
-  dependencies:
-    "@types/node": 17.0.29
-    "@types/react": 18.0.8
-    "@types/react-dom": 18.0.0
-    eslint: 8.14.0
-    eslint-config-next: 12.1.5
-    next: 12.1.5
-    react: 18.1.0
-    react-dom: 18.1.0
-    typescript: 4.6.3
-  languageName: unknown
-  linkType: soft
 
 "picocolors@npm:^1.0.0":
   version: 1.0.0
