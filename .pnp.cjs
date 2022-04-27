@@ -38,7 +38,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["turbo", "npm:1.2.4"]\
+            ["eslint", "npm:8.14.0"],\
+            ["turbo", "npm:1.2.4"],\
+            ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2475,7 +2477,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["root-workspace-0b6124", "workspace:."],\
-            ["turbo", "npm:1.2.4"]\
+            ["eslint", "npm:8.14.0"],\
+            ["turbo", "npm:1.2.4"],\
+            ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
           "linkType": "SOFT"\
         }]\
