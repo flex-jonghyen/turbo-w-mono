@@ -1,6 +1,6 @@
 {
   "name": "@flexteam/bundled",
-  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c rollup.config.js",
@@ -29,7 +29,6 @@
     "react-dom": "*"
   },
   "dependencies": {
-    "axios": "^0.27.1",
     "libphonenumber-js": "^1.9.52",
     "rxjs": "^7.5.5"
   }

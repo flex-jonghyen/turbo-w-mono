@@ -5,7 +5,7 @@
     "web-applications/**"
   ],
   "scripts": {
-    "clean": "yarn dlx rimraf **/.next **/dist **/.turbo **/node_modules",
+    "clean": "yarn dlx rimraf **/.next **/dist **/.turbo **/node_modules **/*.tsbuildinfo",
     "build": "yarn turbo run build --filter=@flex-apps/people --force"
   },
   "devDependencies": {

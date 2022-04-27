@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react";
-import { request } from "./fetcher";
+import { get } from "./fetcher";
 
 export const Pikachu = () => {
   const [ditto, setDitto] = useState();
 
   useEffect(() => {
-    const subscription = request({
-      url: "https://pokeapi.co/api/v2/pokemon/pikachu",
-      method: "GET",
-    }).subscribe((data) => {
+    const subscription = get(
+      "https://pokeapi.co/api/v2/pokemon/pikachu"
+    ).subscribe((data) => {
       setDitto(data);
     });
     return () => {

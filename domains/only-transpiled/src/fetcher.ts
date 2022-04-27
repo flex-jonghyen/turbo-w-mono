@@ -1,12 +1,10 @@
-import axios, { AxiosRequestConfig } from "axios";
-import { from, throwError } from "rxjs";
-import { map, retry } from "rxjs/operators";
+import { from } from "rxjs";
+import { map, retry, mergeMap } from "rxjs/operators";
 
-const fetch = axios.request;
-
-export const request = (config: AxiosRequestConfig) => {
-  return from(fetch(config)).pipe(
-    map(({ data }) => data),
+export const get = (url: string) => {
+  return from(fetch(url, { method: "GET" })).pipe(
+    mergeMap(({ json }) => json()),
+    map((data) => data),
     retry(2)
   );
 };

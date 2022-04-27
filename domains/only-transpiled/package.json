@@ -1,6 +1,6 @@
 {
   "name": "@flexteam/only-transpiled",
-  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "babel ./src --out-dir dist --extensions .ts,.tsx",
@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "@emoji-mart/data": "^1.0.1",
-    "axios": "^0.27.1",
     "emoji-mart": "^5.0.0",
     "rxjs": "^7.5.5"
   }
