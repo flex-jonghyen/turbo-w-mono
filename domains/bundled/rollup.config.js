@@ -11,8 +11,6 @@ const config = {
     {
       format: "esm",
       dir: "dist/esm",
-      preserveModules: true,
-      preserveModulesRoot: "src",
     },
     {
       format: "cjs",

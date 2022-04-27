@@ -11,7 +11,7 @@
   "scripts": {
     "babel": "babel src --out-dir dist/esm --extensions .ts,.tsx",
     "rollup": "rollup -c rollup.config.js",
-    "build": "yarn babel",
+    "build": "yarn rollup",
     "type": "tsc --project tsconfig.json"
   },
   "devDependencies": {
