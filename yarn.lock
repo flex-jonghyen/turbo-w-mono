@@ -1398,13 +1398,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emoji-mart/data@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@emoji-mart/data@npm:1.0.1"
-  checksum: 700833b441d954ec95a64f9a86c21bc6490cf660bc4756d09fde84799af28ac052ff73f9cb534f0eef713178a29f65d8c0757b91484806e2ff4083ee66014c34
-  languageName: node
-  linkType: hard
-
 "@eslint/eslintrc@npm:^1.2.2":
   version: 1.2.2
   resolution: "@eslint/eslintrc@npm:1.2.2"
@@ -1427,7 +1420,6 @@ __metadata:
   resolution: "@flex-apps/people@workspace:web-applications/people"
   dependencies:
     "@flexteam/bundled": "workspace:^"
-    "@flexteam/only-transpiled": "workspace:^"
     "@next/bundle-analyzer": ^12.1.5
     "@types/node": 17.0.29
     "@types/react": 18.0.8
@@ -1459,31 +1451,9 @@ __metadata:
     "@types/react": ^18.0.8
     "@types/react-dom": ^18.0.0
     libphonenumber-js: ^1.9.52
+    react-hook-form: ^7.30.0
     rollup: ^2.70.2
     rollup-plugin-terser: ^7.0.2
-    rxjs: ^7.5.5
-    typescript: ^4.6.3
-  peerDependencies:
-    react: "*"
-    react-dom: "*"
-  languageName: unknown
-  linkType: soft
-
-"@flexteam/only-transpiled@workspace:^, @flexteam/only-transpiled@workspace:domains/only-transpiled":
-  version: 0.0.0-use.local
-  resolution: "@flexteam/only-transpiled@workspace:domains/only-transpiled"
-  dependencies:
-    "@babel/cli": ^7.17.6
-    "@babel/core": ^7.17.9
-    "@babel/plugin-transform-runtime": ^7.17.0
-    "@babel/preset-env": ^7.16.11
-    "@babel/preset-react": ^7.16.7
-    "@babel/preset-typescript": ^7.16.7
-    "@babel/runtime": ^7.17.9
-    "@emoji-mart/data": ^1.0.1
-    "@types/react": ^18.0.8
-    "@types/react-dom": ^18.0.0
-    emoji-mart: ^5.0.0
     rxjs: ^7.5.5
     typescript: ^4.6.3
   peerDependencies:
@@ -2626,13 +2596,6 @@ __metadata:
   version: 1.4.123
   resolution: "electron-to-chromium@npm:1.4.123"
   checksum: da7800ead12e233cf503182d6168f22c1c21c24c314150f54a01e54a612a3abe61b976c43c9c69003787b3844660733b9ed3e842470d906b8bbd03e50b966772
-  languageName: node
-  linkType: hard
-
-"emoji-mart@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "emoji-mart@npm:5.0.0"
-  checksum: 9d4988eae858c77c8c71dc4e81f829da0a465975aaf134296f8113140d1234cd2e9e7fcd30539f26e05c5fa99fcab8d7da87c4367931b28584198491cfd8a421
   languageName: node
   linkType: hard
 
@@ -4500,6 +4463,15 @@ __metadata:
   peerDependencies:
     react: ^18.1.0
   checksum: bb0d48eeb0b297c79c2a03978baa29f5b3ff7ba3d070b21e34c9af1a6e7fdf0ca8b8d73e41f9214d91ad40eeb6d1f3559f884cbbc338713374a51320637c23df
+  languageName: node
+  linkType: hard
+
+"react-hook-form@npm:^7.30.0":
+  version: 7.30.0
+  resolution: "react-hook-form@npm:7.30.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18
+  checksum: 7af442c80e1d8e04b6345f4f46177974d82488e81cc12b165d6ff1c69ba0f6234bd2ef0f7b51dda34f77b36fe74464815bbb0f4c77dc2cd9793f8e89d528ae25
   languageName: node
   linkType: hard
 

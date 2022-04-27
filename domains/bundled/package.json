@@ -1,7 +1,13 @@
 {
   "name": "@flexteam/bundled",
-  "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
+  "module": "dist/esm/index.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/esm/index.js"
+    }
+  },
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "type": "tsc --project tsconfig.json"
@@ -30,6 +36,7 @@
   },
   "dependencies": {
     "libphonenumber-js": "^1.9.52",
+    "react-hook-form": "^7.30.0",
     "rxjs": "^7.5.5"
   }
 }

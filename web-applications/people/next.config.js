@@ -4,7 +4,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer");
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    esmExternals: true,
+    // esmExternals: true,
   },
   webpack: (config, { webpack }) => {
     config.plugins.push(new webpack.ProgressPlugin({ profile: true }));

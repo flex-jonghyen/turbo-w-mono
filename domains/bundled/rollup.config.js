@@ -4,8 +4,6 @@
 import babel from "@rollup/plugin-babel";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
-import json from "@rollup/plugin-json";
-import { terser } from "rollup-plugin-terser";
 
 const config = {
   input: "src",
@@ -18,20 +16,18 @@ const config = {
     },
     {
       format: "cjs",
-      dir: "dist/cjs",
+      file: "dist/index.cjs.js",
     },
   ],
-  external: ["react", "react-dom"],
+  external: ["react", "react/jsx-runtime", "react-dom"],
   plugins: [
     resolve({ extensions: [".js", ".jsx", ".ts", ".tsx"] }),
-    json(),
     commonjs(),
     babel({
       babelHelpers: "runtime",
       extensions: [".js", ".jsx", ".ts", ".tsx"],
       configFile: "./.babelrc",
     }),
-    terser(),
   ],
 };
 

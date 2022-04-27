@@ -3,7 +3,8 @@
     [
       "@babel/preset-env",
       {
-        "targets": ["defaults", "not IE 11", "maintained node versions"]
+        "targets": ["defaults", "not IE 11", "maintained node versions"],
+        "modules": false
       }
     ],
     ["@babel/preset-react", { "runtime": "automatic" }],

@@ -1,13 +1,12 @@
 import type { NextPage } from "next";
-import { Ditto } from "@flexteam/only-transpiled";
-import { Pikachu } from "@flexteam/bundled";
+import { PhoneNumber, useHookForm } from "@flexteam/bundled";
 
 const Home: NextPage = () => {
+  useHookForm();
   return (
     <div>
       123
-      <Ditto />
-      <Pikachu />
+      <PhoneNumber />
     </div>
   );
 };
