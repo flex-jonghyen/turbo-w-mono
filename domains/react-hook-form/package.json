@@ -1,24 +1,9 @@
 {
-  "name": "react-hook-form",
+  "name": "@flexteam/react-hook-form",
   "description": "Performant, flexible and extensible forms library for React Hooks",
   "version": "7.30.0",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.mjs",
-  "umd:main": "dist/index.umd.js",
-  "source": "src/index.ts",
-  "types": "dist/index.d.ts",
+  "main": "src/index.ts",
   "sideEffects": false,
-  "files": [
-    "dist",
-    "dist/__tests__"
-  ],
-  "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "import": "./dist/index.esm.mjs",
-      "require": "./dist/index.cjs.js"
-    }
-  },
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "yarn clean",
